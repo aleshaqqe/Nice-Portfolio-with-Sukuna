@@ -1,0 +1,12 @@
+@use 'sass:math';
+@function rem($pixel){
+  @if math.is-unitless($pixel){
+    @return math.div($pixel,16)+rem;
+  }@else{
+    @error "Don't use 'rem' in the end.";
+  }
+}
+
+$space-xl: rem(100);
+$space-lg: rem(60);
+$space-md: rem(30);
