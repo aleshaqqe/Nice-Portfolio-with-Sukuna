@@ -306,6 +306,7 @@ body {
 
     .projects__cards {
       gap: rem(20);
+      flex-wrap:wrap;
       font-size: rem(20);
       margin-top: rem(40);
       display: flex;

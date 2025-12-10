@@ -384,6 +384,7 @@ body {
 }
 .projects .projects__content .projects__cards {
   gap: 1.25rem;
+  flex-wrap: wrap;
   font-size: 1.25rem;
   margin-top: 2.5rem;
   display: flex;
