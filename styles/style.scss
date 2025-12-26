@@ -305,7 +305,7 @@ body {
     }
 
     .projects__cards {
-      gap: rem(20);
+      gap: rem(30);
       flex-wrap:wrap;
       font-size: rem(20);
       margin-top: rem(40);
@@ -330,7 +330,7 @@ body {
 
       .projects__card {
         line-height: rem(40);
-        flex: 1 1 300px;
+        flex: 0 0 300px;
         background: #1e1e1e;
         padding: rem(20) rem(15) rem(40) rem(15);
         border-radius: rem(20);

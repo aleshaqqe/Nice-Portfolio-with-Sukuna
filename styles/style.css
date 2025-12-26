@@ -383,7 +383,7 @@ body {
   }
 }
 .projects .projects__content .projects__cards {
-  gap: 1.25rem;
+  gap: 1.875rem;
   flex-wrap: wrap;
   font-size: 1.25rem;
   margin-top: 2.5rem;
@@ -411,7 +411,7 @@ body {
 }
 .projects .projects__content .projects__cards .projects__card {
   line-height: 2.5rem;
-  flex: 1 1 300px;
+  flex: 0 0 300px;
   background: #1e1e1e;
   padding: 1.25rem 0.9375rem 2.5rem 0.9375rem;
   border-radius: 1.25rem;
