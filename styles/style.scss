@@ -305,7 +305,7 @@ body {
     }
 
     .projects__cards {
-      gap: rem(30);
+      gap: rem(50);
       flex-wrap:wrap;
       font-size: rem(20);
       margin-top: rem(40);
@@ -320,7 +320,7 @@ body {
       @media (max-width: 768px) {
         font-size: rem(18);
         margin-top: rem(30);
-        gap: rem(15);
+        gap: rem(25);
       }
 
       @media (max-width: 480px) {
@@ -629,4 +629,14 @@ body {
       font-size: rem(20);
     }
   }
+}
+
+.target {
+  opacity: 0;
+  transform: translateY(1px); /* начальное смещение */
+  transition: opacity 0.3s ease-out
+}
+.target.visible{
+  opacity: 1;
+  transform:translateY(0);
 }

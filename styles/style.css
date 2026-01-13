@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset and base styles  */
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 * {
@@ -383,7 +384,7 @@ body {
   }
 }
 .projects .projects__content .projects__cards {
-  gap: 1.875rem;
+  gap: 3.125rem;
   flex-wrap: wrap;
   font-size: 1.25rem;
   margin-top: 2.5rem;
@@ -400,7 +401,7 @@ body {
   .projects .projects__content .projects__cards {
     font-size: 1.125rem;
     margin-top: 1.875rem;
-    gap: 0.9375rem;
+    gap: 1.5625rem;
   }
 }
 @media (max-width: 480px) {
@@ -709,6 +710,17 @@ body {
   .footer__title {
     font-size: 1.25rem;
   }
+}
+
+.target {
+  opacity: 0;
+  transform: translateY(1px); /* начальное смещение */
+  transition: opacity 0.3s ease-out;
+}
+
+.target.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*# sourceMappingURL=style.css.map */
