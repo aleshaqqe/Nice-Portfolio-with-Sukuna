@@ -310,7 +310,6 @@ body {
       font-size: rem(20);
       margin-top: rem(40);
       display: flex;
-      justify-content: space-between;
       text-align: center;
 
       @media (max-width: 1024px) {
@@ -639,4 +638,13 @@ body {
 .target.visible{
   opacity: 1;
   transform:translateY(0);
+}
+.modal__link.modal__image{
+}
+.modal__content{
+  opacity: 0.5;
+  width:200px;
+  height:100px;
+  background-color:black;
+  margin:0 auto;
 }

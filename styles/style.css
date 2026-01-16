@@ -389,7 +389,6 @@ body {
   font-size: 1.25rem;
   margin-top: 2.5rem;
   display: flex;
-  justify-content: space-between;
   text-align: center;
 }
 @media (max-width: 1024px) {
@@ -721,6 +720,14 @@ body {
 .target.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.modal__content {
+  opacity: 0.5;
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
